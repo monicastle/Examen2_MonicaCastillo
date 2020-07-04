@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author Monica
  */
-public class Parte implements Serializable{
+public class Parte implements Serializable {
 
     private int tiempoensamblaje;
 
@@ -32,7 +32,7 @@ public class Parte implements Serializable{
 
     @Override
     public String toString() {
-        return "Parte{" + "tiempoensamblaje=" + tiempoensamblaje + '}';
+        return "";
     }
 
 }

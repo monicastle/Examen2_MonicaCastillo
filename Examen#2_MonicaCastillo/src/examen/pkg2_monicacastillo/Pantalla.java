@@ -23,7 +23,7 @@ public class Pantalla extends Parte {
         this.tactil = tactil;
         this.tipo = tipo;
     }
-    
+
     public boolean isTactil() {
         return tactil;
     }
@@ -42,7 +42,7 @@ public class Pantalla extends Parte {
 
     @Override
     public String toString() {
-        return super.toString() + "Pantalla{" + "tactil=" + tactil + ", tipo=" + tipo + '}';
+        return super.toString() + "Pantalla[" + tactil + ", " + tipo + ']';
     }
 
 }

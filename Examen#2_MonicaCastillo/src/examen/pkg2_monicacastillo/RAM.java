@@ -42,7 +42,7 @@ public class RAM extends Parte {
 
     @Override
     public String toString() {
-        return super.toString() + "RAM{" + "tama\u00f1o=" + tamaño + ", marca=" + marca + '}';
+        return super.toString() + "RAM[" + tamaño + ", " + marca + ']';
     }
 
 }

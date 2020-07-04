@@ -60,7 +60,7 @@ public class Tecnico {
 
     @Override
     public String toString() {
-        return "Tecnico{" + "nombre=" + nombre + ", edad=" + edad + ", genero=" + genero + ", cantcomp=" + cantcomp + '}';
+        return "Tecnico[" + nombre + ", " + edad + ", " + genero + ", " + cantcomp + ']';
     }
 
 }

@@ -12,7 +12,7 @@ import java.io.Serializable;
  *
  * @author Monica
  */
-public class Computadora implements Serializable{
+public class Computadora implements Serializable {
 
     private int numserie;
     private int año;
@@ -123,7 +123,7 @@ public class Computadora implements Serializable{
 
     @Override
     public String toString() {
-        return "Computadora{" + "numserie=" + numserie + ", a\u00f1o=" + año + ", color=" + color + ", material=" + material + ", ram=" + ram + ", discoduro=" + discoduro + ", bateria=" + bateria + ", teclado=" + teclado + ", pantalla=" + pantalla + ", procesador=" + procesador + '}';
+        return "Computadora[" + numserie + ", " + año + ", " + color + ", " + material + ", " + ram + ", " + discoduro + ", " + bateria + ", " + teclado + ", " + pantalla + ", " + procesador + ']';
     }
 
 }

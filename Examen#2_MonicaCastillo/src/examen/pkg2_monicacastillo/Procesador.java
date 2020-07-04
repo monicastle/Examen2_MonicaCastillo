@@ -42,7 +42,7 @@ public class Procesador extends Parte {
 
     @Override
     public String toString() {
-        return super.toString() + "Procesador{" + "numnucleos=" + numnucleos + ", velocidad=" + velocidad + '}';
+        return super.toString() + "Procesador[" + numnucleos + ", " + velocidad + ']';
     }
 
 }

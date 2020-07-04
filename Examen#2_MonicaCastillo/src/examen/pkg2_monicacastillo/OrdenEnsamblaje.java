@@ -40,7 +40,7 @@ public class OrdenEnsamblaje {
 
     @Override
     public String toString() {
-        return "OrdenEnsamblaje{" + "computadora=" + computadora + ", tecnico=" + tecnico + '}';
+        return "OrdenEnsamblaje[" + computadora + ", " + tecnico + ']';
     }
 
 }

@@ -9,7 +9,7 @@ package examen.pkg2_monicacastillo;
  *
  * @author Monica
  */
-public class Bateria extends Parte{
+public class Bateria extends Parte {
 
     private int capacidadhoras;
     private String material;
@@ -42,7 +42,7 @@ public class Bateria extends Parte{
 
     @Override
     public String toString() {
-        return super.toString() + "Bateria{" + "capacidadhoras=" + capacidadhoras + ", material=" + material + '}';
+        return super.toString() + "Bateria[" + capacidadhoras + ", " + material + ']';
     }
 
 }
